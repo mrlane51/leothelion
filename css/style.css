@@ -35,7 +35,7 @@ font-weight: 500;
 }
 
 p {
-margin: 20px 0 10px;
+margin: 20px 0 10px 0;
 font-size: 1.1rem;
 }
 
@@ -76,7 +76,7 @@ border: 0;
 }
 
 .btn:hover {
-transform: scale(0.98);
+transform: scale(.95)
 }
 
 .logo {
@@ -176,7 +176,6 @@ transform: scale(0.5);
 .home-content {
 position: relative;
 z-index: 10;
-max-width: 600px;
 }
 
 .home-content > h1 {
@@ -189,37 +188,6 @@ bottom: 100;
 left: 50%;
 height: 70%;
 }
-
-/* Services Page */
-.services {
-    margin-top: 40px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 40px;
-    text-align: center;
-}
-
-.services .service {
-    padding: 30px;
-    background: rgba(255, 255, 255, 0.5);
-}
-
-.services .service:hover {
-    box-shadow: 0 30px 50px rgba(0, 0, 0, 0.1);
-}
-
-.services .service h2 {
-    font-size: 24px;
-    font-weight: 500;
-    margin-top: 20px;
-    color: var(--secondary-color);
-}
-
-.services .service .icon img {
-    max-width: 200px;
-}
-
-
 
 /* Work Page*/
 
