@@ -10,6 +10,9 @@ Key Visuals and Points of the Site.
 - Added social media bar whereas you are able to click the logo and it'll take you to their respective site.
 - Contact page has detailed info with a user input contact form.
 
+updates as of 02/24/2022
+- added links to projects and github pages
+
 
 
 ## References :
